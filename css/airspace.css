@@ -189,7 +189,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	call-to-action Start
 --*/
 #call-to-action {
-  background: url("../img/remarketing") no-repeat;
+  /*background: url("../img/remarketing") no-repeat;*/
   background-size: cover;
   background-attachment: fixed;
   padding: 70px 0px;
@@ -252,7 +252,8 @@ font header .navbar-default .navbar-nav li a:hover {
   backface-visibility: hidden;
   padding: 100px 0;
   opacity: 0.5;
-  
+      /*margin-top: 41px;*/
+
 }
 #feature h2 {
   font-size: 28px;
@@ -270,11 +271,11 @@ font header .navbar-default .navbar-nav li a:hover {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
 }
-#feature .btn-view-works {
-  background: #white;
+/*#feature .btn-view-works {
+  background: #red;
   color: #fff;
   padding: 10px 20px;
-}
+}*/
 /*--
 	content Start
 --*/

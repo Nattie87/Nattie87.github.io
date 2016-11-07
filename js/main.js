@@ -5,7 +5,7 @@ $(document).ready(function(){
 
 
 	$("#testimonial-slider").owlCarousel({
-	    paginationSpeed : 500,      
+	    paginationSpeed : 500,
 	    singleItem:true,
 	    autoPlay: 3000,
 	});
@@ -30,12 +30,12 @@ $(document).ready(function(){
 
 	// google map
 		var map;
-		function initMap() {
+		window.initMap = function() {
 		  map = new google.maps.Map(document.getElementById('map'), {
 		    center: {lat: -34.397, lng: 150.644},
 		    zoom: 8
 		  });
-		}
+		};
 
 
 	// Counter
@@ -47,7 +47,3 @@ $(document).ready(function(){
 
 
 });
-
-
-
-

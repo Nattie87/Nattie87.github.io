@@ -6,7 +6,7 @@ jQuery(document).ready(function() {
         var a = {
                 zoom: 11,
                 scrollwheel: false,
-                center: new google.maps.LatLng(40.67, -73.94),
+                center: new google.maps.LatLng(51.5795005, -0.1248147),
                 styles: [{
                     "featureType": "landscape",
                     "stylers": [
@@ -130,7 +130,7 @@ jQuery(document).ready(function() {
             position: new google.maps.LatLng(40.67, -73.94),
             map: c,
             title: "Snazzy!"
-        })
+        });
     }
     google.maps.event.addDomListener(window, "load", b);
 
