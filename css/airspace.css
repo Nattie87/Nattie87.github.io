@@ -146,7 +146,6 @@ font header .navbar-default .navbar-nav li a:hover {
   margin: 0;
 }
 #intro .block p {
-  color: #7B7B7B;
   padding-top: 20px;
 }
 #intro .block img {
@@ -157,6 +156,32 @@ font header .navbar-default .navbar-nav li a:hover {
   margin-bottom: 0px;
 }
 #intro .section-title p {
+  padding-top: 20px;
+}
+
+#about {
+  padding: 100px 0;
+  background-color: #1d192c;
+  opacity: 0.8;
+  color: white;
+}
+#about .block h2 {
+  padding-top: 35px;
+  line-height: 27px;
+  margin: 0;
+  color: white;
+}
+#about .block p {
+  padding-top: 20px;
+}
+#about .block img {
+  padding-left: 40px;
+  width: 100%;
+}
+#about .section-title {
+  margin-bottom: 0px;
+}
+#about .section-title p {
   padding-top: 20px;
 }
 /*--
